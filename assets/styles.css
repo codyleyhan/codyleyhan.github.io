@@ -47,7 +47,7 @@ body {
   background-image: url("../img/background.jpeg");
   background-size: cover;
   background-position: top center;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .name {
