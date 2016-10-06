@@ -50,7 +50,7 @@ body {
   background-attachment: fixed;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 768px) {
 	.name-header {
 		background-attachment: scroll;
 	}
