@@ -48,7 +48,13 @@ body {
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+
+	@media (max-width: @iphone-screen) {
+		background-attachment:scroll;
+	}
 }
+
+
 
 .name {
   color: #FFFFFF;
