@@ -56,7 +56,34 @@ body {
 	}
 }
 
+.project-title a {
+	color: #ffffff;
+}
 
+.project-title a:hover {
+	color: #377B91;
+}
+
+.tech {
+	margin-top: 1em;
+}
+
+.tech-list {
+	margin: 1em 0;
+	padding: 0;
+	overflow:auto;
+}
+
+.skill {
+	list-style-type: none;
+	padding: .5em;
+	margin-right: .5em;
+	margin-top: .75em;
+	display: inline-block;
+	border-radius: 10%;
+	background-color: #ffffff;
+	color: #377B91;
+}
 
 .name {
   color: #FFFFFF;
@@ -84,12 +111,6 @@ section {
 .project {
   padding: 25px;
   margin: auto auto;
-}
-.project .img-responsive {
-  margin: 15px auto;
-}
-.project img {
-  border: 5px solid #ffffff;
 }
 
 #about p {
