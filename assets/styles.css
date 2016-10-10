@@ -80,7 +80,7 @@ body {
 	margin-right: .5em;
 	margin-top: .75em;
 	display: inline-block;
-	border-radius: 10%;
+	border-radius: 5px;
 	background-color: #ffffff;
 	color: #377B91;
 }
