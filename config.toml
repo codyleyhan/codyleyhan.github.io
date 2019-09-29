@@ -1,0 +1,58 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+[author]
+  name = "Cody Ley-Han"
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2 Jan 2006 15:04:05 MST"
+
+  # Metadata mostly used in document's head
+  description = "Cody Ley-Han, Software Engineer"
+  homeSubtitle = "Software Engineer"
+  keywords = "software, engineering, computers, blog, science, informatics, development, programming"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+[languages]
+  [languages.en]
+    title = "Cody Ley-Han"
+    subtitle = "Software Engineer"
+    keywords = "software, engineering, computers, blog, science, informatics, development, programming"
+    copyright = "Cody Ley-Han"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Cody Ley-Han"
+      logoHomeLink = "/"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/codyleyhan"
+
+    [[params.social]]
+      name = "linkedin"
+      url  = "https://www.linkedin.com/in/codyleyhan"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
